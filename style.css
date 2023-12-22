@@ -1,0 +1,40 @@
+td{
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px 17px;
+}
+table{
+    width: 90%;
+    height: 90%;
+    border-collapse: collapse;
+}
+div{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tr1 .td1{
+    background-color:yellow;
+}
+td:first-child{
+    background-color: rgb(0 175 80);
+}
+.td1{
+    background-color: yellow;
+}
+.tr1:first-child{
+    background-color: rgb(249 191 143);
+}
+.td2:first-child{
+    background-color: rgb(0 175 80);
+}
+tr:last-child{
+    background-color: rgb(0 175 80);
+}
+.td9 .td8{
+    background-color: grey;
+}
+td:last-child{
+    background-color: rgb(249 191 143);
+}
