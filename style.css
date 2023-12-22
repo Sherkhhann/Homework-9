@@ -20,9 +20,6 @@ div{
 td:first-child{
     background-color: rgb(0 175 80);
 }
-.td1{
-    background-color: yellow;
-}
 .tr1:first-child{
     background-color: rgb(249 191 143);
 }
@@ -32,9 +29,36 @@ td:first-child{
 tr:last-child{
     background-color: rgb(0 175 80);
 }
-.td9 .td8{
+/*.td9 .td8{
     background-color: grey;
-}
+}*/
 td:last-child{
     background-color: rgb(249 191 143);
+}
+.tr1 td:first-child{
+    background-color: yellow;
+}
+.td2 td:nth-child(2){
+    background-color: yellow;
+}
+.td3 td:nth-child(3){
+    background-color: yellow;
+}
+.td4 td:nth-child(4){
+    background-color: yellow;
+}
+.td5 td:nth-child(5){
+    background-color: yellow;
+}
+.td6 td:nth-child(6){
+    background-color: yellow;
+}
+.td7 td:nth-child(7){
+    background-color: yellow;
+}
+.td8 td:nth-child(8){
+    background-color: yellow;
+}
+.td9 td:first-child{
+    background-color: gray;
 }
